@@ -1,0 +1,145 @@
+*{
+    font-family: arial;
+    padding:0;
+    margin:0;
+}
+.header{
+   background-color: #333333;
+   width:100%;
+   
+}
+.navbar{
+   background-color:#333333;
+    
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.navbar li {
+  float: right;
+  
+}
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar li a:hover {
+  background-color: #111111;
+}
+.image{
+  width:100%;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/bannar.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height:90vh;
+  position:relative;
+}
+.text{
+    position:absolute;
+    top:10%;
+    left:15%;
+    transform: translate(-50%,-50%);
+    
+}
+.text h1{
+     font-weight: 700;
+     font-size:40px;
+     color:white;
+}
+.text1{
+    position:absolute;
+    top:10%;
+    right:1%;
+    transform: translate(-50%,-50%);
+}
+.text1 h1{
+     font-weight: 700;
+     font-size:40px;
+     color:whitesmoke;
+}
+
+.button{
+    position:absolute;
+    top:85%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    font-size: 40px;
+    padding: 20px 40px;
+    border:1px solid #fff;
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #fff;
+    color:#000;
+}
+.about{
+    width:100%;
+    height:300px;
+    background-color: #121716;
+}
+.about h1{
+    padding-top: 55px;
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size:37px;
+    margin:0;
+    color:whitesmoke;
+    max-width:1200px;
+    margin:auto;
+}
+.about p{
+    font-size: 26px;
+    text-align: justify;
+    max-width:1200px;
+    margin:auto;
+    color:#dcdaca;
+}
+.foot{
+    background-color: #121716;
+    height:150px;
+    border-top: 1px solid #3c3c3c;
+}
+.foot p{
+    color:white;
+    padding-top:30px;
+    padding-bottom:20px;
+    text-align:center;
+    font-size:20px;
+}
+.social ul{
+    position:absolute;
+    left:41%;
+
+}
+.social ul li{
+    list-style: none;
+    margin-right:20px;
+    display:inline-block;
+    padding:15px 15px;
+    color:#fff;
+    border:1px solid #fff;
+    border-radius: 50%;
+    transition: .5s;
+}
+.social ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+}
